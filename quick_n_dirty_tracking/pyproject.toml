@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "quick-n-dirty-tracking"
+version = "0.1.0"
+description = ""
+authors = ["DariiioBeltran <dariiio.beltran@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+google-api-python-client = "^2.149.0"
+google-auth-httplib2 = "^0.2.0"
+google-auth-oauthlib = "^1.2.1"
+gspread = "^6.1.4"
+pydantic = "^2.9.2"
+pyyaml = "^6.0.2"
+fire = "^0.7.0"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

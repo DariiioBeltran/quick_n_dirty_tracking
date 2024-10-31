@@ -1,0 +1,24 @@
+mesocycle_name: Meso Cycle Name # NOTE: this will be the name of the Spreadsheet
+workouts:
+  - workout_name: Workout 1 # NOTE: this will be the title of one of the Worksheets
+    exercises:
+      - exercise_name: First Exercise
+        sets: Number of sets for this exercise
+        reps: Number of reps for each set
+      - exercise_name: Second Exercise
+        sets: Number of sets for this exercise
+        reps: Number of reps for each set
+      - exercise_name: Third Exercise
+        sets: Number of sets for this exercise
+        reps: Number of reps for each set
+  - workout_name: Workout 2 # NOTE: this will be the title of one of the Worksheets
+    exercises:
+      - exercise_name: First Exercise
+        sets: Number of sets for this exercise
+        reps: Number of reps for each set
+      - exercise_name: Second Exercise
+        sets: Number of sets for this exercise
+        reps: Number of reps for each set
+      - exercise_name: Third Exercise
+        sets: Number of sets for this exercise
+        reps: Number of reps for each set
