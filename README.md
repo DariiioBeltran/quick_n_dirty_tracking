@@ -15,7 +15,7 @@ At the time of this writing, this project only supports the creation of the Goog
 ### setup_mesocycle_sheets
 After you create a mesocycle yaml file, say we call it `mesocycle_one.yaml`, run the following command to create the associated GoogleSheet:
 ```
-just just quick-n-dirty-tracking setup_mesocycle_sheets mesocycle_one ''
+just quick-n-dirty-tracking setup_mesocycle_sheets mesocycle_one ''
 ```
 You will receive an email granting you access to the created sheet. Please keep the format of the data the same since the `analyze_mesocycle` command will rely heavily on the schema of these sheets.
 
