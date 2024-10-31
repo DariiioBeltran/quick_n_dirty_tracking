@@ -1,6 +1,6 @@
 # Enable the google sheets api and google drive api and dump the json credentials in a file called credentials.json
 # Create a .env file with the var GMAIL set to your gmail
-setup:
+setup-dev:
     brew install just
     curl -sSL https://install.python-poetry.org | python3 -
     poetry install
