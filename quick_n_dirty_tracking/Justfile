@@ -1,0 +1,12 @@
+# Enable the google sheets api and google drive api and dump the json credentials in a file called credentials.json
+# Create a .env file with the var GMAIL set to your gmail
+setup:
+    brew install just
+    curl -sSL https://install.python-poetry.org | python3 -
+    poetry install
+
+# AVAILABLE COMMANDS:
+#   - setup_mesocycle_sheets: Parses mesocyle yaml file, creates Google sheets, populates sheets with correct format
+#   - analyze_mesocycle: Coming soon, will perform some analysis and generate a report (pdf) regarding progress during the mesocycle
+quick-n-dirty-tracking COMMAND MESO_NAME SHEET_ID:
+    poetry run python quick_n_dirty_tracking/MesoCycleAdapter.py {{COMMAND}} --mesocycle_name={{MESO_NAME}} --sheet_id={{SHEET_ID}}
